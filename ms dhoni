@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - M.S. Dhoni - Tribute Page </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway|Reenie+Beanie'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MS Dhoni tribute page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+ 
+  </head>
+  <body>
+    <div class="cover-image">
+      <div class="cover-page text-center">
+        <div class="hero">
+          <h1 class="hero-title" data-aos="zoom-in">M.S. Dhoni</h1>
+          <h2 class="hero-text" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">tribute page</h2>
+        </div>
+        <span class="hero-scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">Scroll down <br><a href="#main"><i class="fa fa-chevron-down bounce chevron"></i></a></span>
+
+      </div>
+    </div>
+
+    <main class="dhoni-main" id="main">
+      <div class="container" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in"> <!-- I again had to add this extra div or container to fix issue I had with AOS library I keep sending me to mid of dhoni-intro, not at the begging -->
+        <div class="row dhoni-intro">
+          <div class="col-md-6">
+            <h2 class="text-center">Mahendra Singh Dhoni</h2>
+            <hr class="hr-style">
+            <p class="text-justify">Mahendra Singh Dhoni (commonly known as M. S. Dhoni) is an Indian cricketer who captained the Indian team in limited-overs formats from 2007 to 2016 and in Test cricket from 2008 to 2014. An attacking right-handed middle-order batsman and wicket-keeper, he is widely regarded as one of the greatest finishers in limited-overs cricket. He made his One Day International (ODI) debut in December 2004 against Bangladesh, and played his first Test a year later against Sri Lanka.</li>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="https://dl.dropboxusercontent.com/s/7go6m4qosfdah78/intro.jpg?dl=0" class="img-responsive img-thumbnail dhoni-title-image" alt="MS Dhoni portrait image">
+          </div>
+        </div>
+
+        <div class="row dhoni-breif-intro-1">
+          <div class="col-md-6">
+            <table class="table table-hover table-condensed">
+              <thead>
+                <tr>
+                  <th colspan="2" class="table-heading text-center">Personal information</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Name</th>
+                  <td>Mahendra Singh Dhoni</td>
+                </tr>
+                <tr>
+                  <th>Born</th>
+                  <td>7 July 1981 (age 35) Ranchi, Bihar, India</td>
+                </tr>
+                <tr>
+                  <th>Nickname</th>
+                  <td>Mahi, MS, MSD, Captain Cool</td>
+                </tr>
+                <tr>
+                  <th>Height</th>
+                  <td>5 ft 9 in (1.75 m)</td>
+                </tr>
+                <tr>
+                  <th>Batting style</th>
+                  <td>Right-handed</td>
+                </tr>
+                <tr>
+                  <th>Bowling style</th>
+                  <td>Right-arm medium</td>
+                </tr>
+                <tr>
+                  <th>Role</th>
+                  <td>Wicket-keeper batsman</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-6">
+            <table class="table table-hover table-condensed">
+              <thead>
+                <tr>
+                  <th colspan="2" class="table-heading text-center">Domestic team information</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Years</th>
+                  <th>Team</th>
+                </tr>
+                <tr>
+                  <td>1999/00 - 2003/04</td>
+                  <td>Bihar</td>
+                </tr>
+                <tr>
+                  <td>2004/05 - present</td>
+                  <td>Jharkhand</td>
+                </tr>
+                <tr>
+                  <td>2008 - 2015</td>
+                  <td>Chennai Super Kings</td>
+                </tr>
+                <tr>
+                  <td>2016 - present</td>
+                  <td>Rising Pune Supergiants</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div> <!-- ./ row - dhoni-breif-intro-1 -->
+
+        <div class="row dhoni-breif-intro-2">
+          <div class="col-md-6">
+            <table class="table table-hover table-condensed">
+              <thead>
+                <tr>
+                  <th colspan="2" class="table-heading text-center">International information</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>National Side</th>
+                  <td>India</td>
+                </tr>
+                <tr>
+                  <th>Test debut</th>
+                  <td>2 December 2005 v Sri Lanka</td>
+                </tr>
+                <tr>
+                  <th>Last test</th>
+                  <td>26 December 2014 v Australia</td>
+                </tr>
+                <tr>
+                  <th>ODI debut</th>
+                  <td>23 December 2004 v Bangladesh</td>
+                </tr>
+                <tr>
+                  <th>Last ODI</th>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th>ODI shirt no.</th>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <th>T20I debut</th>
+                  <td>1 December 2006 v South Africa</td>
+                </tr>
+                <tr>
+                  <th>Last T20I</th>
+                  <td>-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-6">
+            <table class="table table-hover table-condensed">
+              <thead>
+                <tr>
+                  <th colspan="5" class="table-heading text-center">Career statistics</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Competition</th>
+                  <th>Test</th>
+                  <th>ODI</th>
+                  <th>FC</th>
+                  <th>T20Is</th>
+                </tr>
+                <tr>
+                  <th>Matches</th>
+                  <td>90</td>
+                  <td>285</td>
+                  <td>131</td>
+                  <td>73</td>
+                </tr>
+                <tr>
+                  <th>Runs scored</th>
+                  <td>4876</td>
+                  <td>9250</td>
+                  <td>7038</td>
+                  <td>1112</td>
+                </tr>
+                <tr>
+                  <th>Batting average</th>
+                  <td>38.09</td>
+                  <td>51.10</td>
+                  <td>36.84</td>
+                  <td>35.87</td>
+                </tr>
+                <tr>
+                  <th>100s/50s</th>
+                  <td>6/33</td>
+                  <td>10/61</td>
+                  <td>6/47</td>
+                  <td>0/0</td>
+                </tr>
+                <tr>
+                  <th>Top score</th>
+                  <td>224</td>
+                  <td>183*</td>
+                  <td>224</td>
+                  <td>48*</td>
+                </tr>
+                <tr>
+                  <th>Balls bowled</th>
+                  <td>96</td>
+                  <td>36</td>
+                  <td>126</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th>Wickets</th>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <th>Catches/stumping</th>
+                  <td>256/38</td>
+                  <td>269/94</td>
+                  <td>364/57</td>
+                  <td>41/22</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr class="text-right">
+                  <td colspan="5">Source: <a href="http://www.cricinfo.com/india/content/player/28081.html" target="_blank">ESPNcricinfo</a>, 19 January 2017</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div> <!-- ./container -->
+    </main> <!-- ./ main -->
+
+    <div class="cover-image-2" data-aos="fade-up" data-aos-duration="1000"  data-aos-easing="ease-in" >
+    </div>
+
+    <section class="container dhoni-timeline" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in">
+      <h2 class="text-center" id="title-mobile">MS Dhoni: A timeline</h2>
+      <h2 class="text-center" id="title-desktop">Mahendra Singh Dhoni: A timeline</h2>
+      <hr class="hr-style">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <ul>
+            <li><strong>December 23, 2004:</strong> Makes his ODI debut against Bangladesh in Chittagong. Is run out for 0 after facing one ball, in a match India win by 11 runs.</li>
+            <li><strong>April 5, 2005:</strong> The first ODI hundred by an Indian wicketkeeper. After scores of 0, 12, 7* and 3, Dhoni is sent up the order to No 3 against Pakistan in Visakhapatnam and proceeds to smash 148 off 123 balls with 15 fours and four sixes, setting the platform for India's 356/9. The world wakes up to Dhoni's potential.</li>
+            <li><strong>October 31, 2005:</strong> Dhoni stamps himself into the history books with a record 183* against Sri Lanka in Jaipur, helping India chase 301 with six wickets and 23 deliveries to spare. Batting at No 3, his 145-ball hundred makes a stiff target look well short and India go up 3-0 in the best-of-seven series.</li>
+            <li><strong>September 13, 2007:</strong> Dhoni's first international match in charge of India is a wash out against Scotland in their ICC World Twenty20 opener. Few could have predicted how India's tournament will pan out.</li>
+            <li><strong>September 24, 2007:</strong> India win the inaugural World Twenty20 by beating Pakistan in an absolute humdinger in Johannesburg. Dhoni is an overnight sensation once more and the landscape of T20 cricket is changed forever.</li>
+            <li><strong>October 2, 2007:</strong> In the next match in Kochi, Dhoni scores his first fifty as captain - 58 off 88 balls - as India are beaten by 84 runs to fall behind 0-1 in the seven-match series.</li>
+            <li><strong>November 15, 2007:</strong> First ODI series win for Dhoni as captain, as India beat Pakistan by six wickets in Gwalior to take the lead 3-1 in the best-of-five series. His contribution? An unbeaten 45 off 45 balls as 256 is chased with six wickets in hand.</li>
+            <li><strong>March 4, 2008:</strong> A momentous occasion for India as they win their first ODI series in Australia. The landmark comes in the second final of the CB Series, which India win by nine runs to make it 2-0.</li>
+            <li><strong>November 26, 2008:</strong> Dhoni's first 5-0 sweep of any team. Victory by six wickets in Cuttack whitewashes Kevin Pietersen's England.</li>
+            <li><strong>March 11, 2009:</strong> Dhoni becomes the first Indian captain to win an ODI series in New Zealand. A whirlwind century from Virender Sehwag seals a ten-wicket win in Hamilton.</li>
+            <li><strong>February 24, 2010:</strong> India win a three-match series at home over South Africa, riding on Sachin Tendulkar's record-setting 200*. Dhoni injects 68 off 35 balls to a total of 401/3.</li>
+            <li><strong>June 24, 2010:</strong> India lift the Asia Cup under Dhoni, beating Sri Lanka by 81 runs in Dambulla.</li>
+            <li><strong>April 2, 2011:</strong> India win the World Cup after 28 years, with the skipper hitting the winning runs with a six. Promoting himself up the order, Dhoni shrugs off his poor run in the tournament with the innings of his life: 91* off 79 balls.</li>
+            <li><strong>October 25, 2011:</strong> India salvage some pride with a 5-0 win over England when Alastair Cook's team visit. Dhoni is Player of the Series.</li>
+            <li><strong>June 23, 2013:</strong> Dhoni marshals his troops superbly to lead India to a narrow five-run win in the final of the Champions Trophy over hosts England, thus becoming the first captain to hold all three of the ICC's major titles.</li>
+            <li><strong>September 2, 2014:</strong> A sliver of brightness for India away from home. They beat England by nine wickets in Birmingham to win the ODI leg of another difficult tour.</li>
+            <li><strong>March 23, 2016:</strong> Dhoni's coolness and ability to back players under immense pressure is to the fore in Bangalore, where Bangladesh are beaten by one run during the World Twenty20. Dhoni helps India pull off an incredible heist.</li>
+            <li><strong>January 4, 2017:</strong> Announces that he is giving up the captaincy, but remains available for selection for the upcoming England series.</li>
+          </ul>
+          <p class="text-right">Source: <a href="http://timesofindia.indiatimes.com/sports/cricket/england-in-india-2016/a-timeline-of-ms-dhonis-limited-overs-career/articleshow/56346359.cms">1</a>, <a href="http://timesofindia.indiatimes.com/sports/cricket/england-in-india-2016/a-timeline-of-ms-dhonis-limited-overs-career/articleshow/56346359.cms">2</a></p>
+        </div>
+        <div class="col-sm-10 col-sm-offset-1">
+          <blockquote class="dhoni-appreciation">
+            <p>When I die, the last thing I want to see is the six that Dhoni hit in the 2011 World Cupfinal.</p>
+            <footer>
+              <cite>Sunil Gavaskar<cite>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="col-sm-10 col-sm-offset-1" id="dhoni-wiki-imdb-link">
+          <p>If you have time, you should watch his <a href="http://www.imdb.com/title/tt4169250/" target="_blank">movie <span class="fa fa-video-camera"></span></a> and read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Mahendra_Singh_Dhoni" target="_blank">Wikipedia entry <span class="fa fa-external-link"> </span></a>.</p>
+        </div>
+      </div>
+
+
+      <hr class="hr-style-two">
+    </section>
+
+    <article class="container dhoni-surprise-video">
+      <div class="row">
+       <div class="col-md-5 col-md-offset-1">
+         <button class="btn btn-primary btn-block" id="button-1" type="button" name="button" data-toggle="modal" data-target="#surprise_video_1"><span class="fa fa-film"></span> Click Me! for a surprise video 😊</button>
+       </div>
+       <div class="col-md-5">
+         <button class="btn btn-primary btn-block" id="button-2" type="button" name="button" data-toggle="modal" data-target="#surprise_video_2"><span class="fa fa-film"></span> and yeah! me too.. 😊</button>
+       </div>
+     </div>
+
+     <div class="row">
+       <div class="col-md-12">
+         <p class="text-center">want more!!?🤔 check these videos <a href="http://www.hotstar.com/sports/cricket/dhonis-unforgettable-legacy/2001901384" target="_blank"><span class="fa fa-external-link"></span> here</a> and <a href="http://www.hotstar.com/sports/cricket/india-vs-england-2016/dhoni-quits-captaincy/2001901368#"><span class="fa fa-external-link"></span> here</a></p>
+       </div>
+     </div>
+   </article>
+
+    <aside class="container dhoni-social-media">
+      <h2 class="text-center">Social Media <span class="fa fa-thumbs-o-up"></span></h2>
+      <hr class="hr-style">
+      <!-- Embed from https://embed.ly/ -->
+      <div class="row">
+        <div class="col-md-12" id="card-main">
+          <blockquote class="embedly-card" data-card-key="ae246d2cb7654e44add97d68928f50ef" data-card-controls="0" data-card-type="article-full"><h4><a href="http://www.bcci.tv/videos/id/548/icc-cwc-2011-india-v-sri-lanka-final">ICC CWC 2011 : India v Sri Lanka - Final</a></h4><p>ICC CWC 2011 : India v Sri Lanka - Final</p></blockquote>
+        </div>
+        <div class="col-sm-12" id="card-link-for-mobile">
+          <h3 class="text-center">Videos</h3>
+          <hr class="hr-style">
+          <p><a href="https://www.facebook.com/IndianCricketTeam/posts/1343374715684218" target="_blank"><span class="fa fa-external-link"></span> Moments from 'Captain' MS Dhoni's last day at office</a></p>
+          <p><a href="https://www.facebook.com/IndianCricketTeam/posts/1343369125684777" target="_blank"><span class="fa fa-external-link"></span> Yuvraj Singh interviews Captain MS Dhoni</a></p>
+        </div>
+        <div class="col-md-5 col-md-offset-1" id="card-one">
+          <blockquote class="embedly-card" data-card-key="ae246d2cb7654e44add97d68928f50ef" data-card-controls="0" data-card-type="article"><h4><a href="https://www.facebook.com/IndianCricketTeam/posts/1343374715684218">Moments from 'Captain' MS Dhoni's last day at office</a></h4><p>Moments from 'Captain' MS Dhoni's last day at office</p></blockquote>
+        </div>
+        <div class="col-md-5 col-md-offset-1" id="card-two">
+          <blockquote class="embedly-card" data-card-key="ae246d2cb7654e44add97d68928f50ef" data-card-controls="0" data-card-type="article"><h4><a href="https://www.facebook.com/IndianCricketTeam/posts/1343369125684777">Yuvraj Singh interviews Captain MS Dhoni</a></h4><p>Yuvraj Singh interviews Captain MS Dhoni</p></blockquote>
+        </div>
+      </div>
+    </aside>
+
+    <footer class="container">
+      <hr class="hr-style-footer">
+      <p class="text-center"><span class="fa fa-desktop"></span> <a href="https://github.com/devNimi/M.S.-Dhoni-Tribute-Page" target="_blank"><span class="fa fa-code"></span></a> <a href="https://www.facebook.com/devNimi" target="_blank"> <i class="fa fa-spinner fa-pulse" aria-hidden="true"></i></a></p>
+    </footer>
+
+    <!-- Modal Surprise Video - 1 --> <!-- BOOTSTRAP Modals-->
+    <div class="modal fade" id="surprise_video_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel">Best Captain</h4>
+          </div>
+          <div class="modal-body">
+            <!-- Embed Video 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" width="" height="360" src="https://www.youtube.com/embed/f47F_zzGA7Y" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Surprise Video - 2 -->
+    <div class="modal fade" id="surprise_video_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="myModalLabel">India lifts the World Cup after 28 years...</h4>
+          </div>
+          <div class="modal-body">
+            <!-- Embed Video 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" width="" height="360" src="https://www.youtube.com/embed/eGYOOhMpS8k" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Surprise Video - 2 ends here -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+
+    <!-- script to stop video when Bootstrap modal is closed
+    more over here: https://coolestguidesontheplanet.com/stop-video-playing-bootstrap-modal-closed/
+    and http://stackoverflow.com/questions/13799377/twitter-bootstrap-modal-stop-youtube-video-->
+    <script>
+    jQuery('#surprise_video_1').on('hidden.bs.modal', function (e) {
+      // do something...
+      jQuery('#surprise_video_1 iframe').attr("src", jQuery("#surprise_video_1  iframe").attr("src"));
+    });
+    </script>
+    <!-- for 2nd video -->
+    <script>
+    jQuery('#surprise_video_2').on('hidden.bs.modal', function (e) {
+      // do something...
+      jQuery('#surprise_video_2 iframe').attr("src", jQuery("#surprise_video_2  iframe").attr("src"));
+    });
+    </script>
+
+    <!-- AOS Library: https://michalsnik.github.io/aos/ -->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+      easing: 'ease-out-back',
+      duration: 1000
+      });
+    </script>
+
+    <!-- for videos and post embed in code more over here: https://docs.embed.ly/docs/platformjs and
+    here: https://embed.ly/
+    I tried directly embeding video direct from facebook, but that don't seem responsive. here is the link
+    https://developers.facebook.com/docs/plugins/embedded-posts/?prefill_href=https%3A%2F%2Fwww.facebook.com%2FIndianCricketTeam%2Fposts%2F1343374715684218#code-generator
+    Right now I have no idea how Javascript and all this works. I am just getting started :), so do solve my problem here
+    I did a Google and tada.. I find that. I hope later when I'll learn JavaScript. I'll be able to understand
+    ow this all works and my be make some notification here :P -->
+    <script>
+      (function(w, d){
+       var id='embedly-platform', n = 'script';
+       if (!d.getElementById(id)){
+         w.embedly = w.embedly || function() {(w.embedly.q = w.embedly.q || []).push(arguments);};
+         var e = d.createElement(n); e.id = id; e.async=1;
+         e.src = ('https:' === document.location.protocol ? 'https' : 'http') + '://cdn.embedly.com/widgets/platform.js';
+         var s = d.getElementsByTagName(n)[0];
+         s.parentNode.insertBefore(e, s);
+       }
+      })(window, document);
+    </script>
+
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+</body>
+</html>
